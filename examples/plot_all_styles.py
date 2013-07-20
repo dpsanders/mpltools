@@ -11,10 +11,11 @@ import os.path as pth
 import numpy as np
 import matplotlib.pyplot as plt
 
+import mpltools
 from mpltools import style
 
 
-PATH = pth.abspath(pth.dirname(__file__))
+PATH = pth.abspath(pth.dirname(mpltools.__file__))
 
 TEST_DIRS = ('test_artists_png', 'test_artists_pdf',
             'test_simple_png', 'test_simple_pdf')
